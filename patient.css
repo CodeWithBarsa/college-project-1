@@ -101,3 +101,30 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.nav-bar ul {
+    display: flex;
+    flex-direction: row; /* Stack items vertically */
+    gap: 25px; /* Adjust the gap size */
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.nav-bar ul .nav-1, 
+.nav-bar ul .nav-2, 
+.nav-bar ul .nav-3 {
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Add some padding inside */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for each nav item */
+.nav-bar ul .nav-1:hover,
+.nav-bar ul .nav-2:hover,
+.nav-bar ul .nav-3:hover {
+    background-color: #ffffff43; /* White background on hover */
+    color: #0b78ed; /* Change text color */
+    cursor: pointer; /* Change cursor to pointer */
+}

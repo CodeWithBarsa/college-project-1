@@ -1,17 +1,17 @@
- // Sample list of doctors
+// Sample list of doctors
 const doctors = [
     {
         name: "Dr. Anjali Sharma",
         specialty: "General Physician",
         experience: "10 years",
-        image: "images/doctor1.jpg",
+        image: "image/doctor_1.jpg",
         availability: "Available Today"
     },
     {
         name: "Dr. Rajesh Kumar",
         specialty: "Cardiologist",
         experience: "15 years",
-        image: "images/doctor2.jpg",
+        image: "image/doctor2.jpg",
         availability: "Available Tomorrow"
     },
     // Add more doctors here...
